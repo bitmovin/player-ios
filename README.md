@@ -59,4 +59,3 @@ When using Xcode, go to the `General` page or your app target and add the SDK bu
 ## Documentation And Release Notes
 -   You can find the latest API documentation [here](https://bitmovin.com/ios-sdk-documentation/).
 -   The release notes can be found [here](https://bitmovin.com/release-notes-ios-sdk/).
-w
