@@ -13,6 +13,7 @@ To add the SDK as a dependency to your project, you have three options: Using Sw
 
 #### Using Swift Package Manager (SPM) via Xcode
 Add your package by following the [official guide](https://developer.apple.com/documentation/swift_packages/adding_package_dependencies_to_your_app) from Apple.
+
 Use URL of `https://github.com/bitmovin/bitmovin-player-ios` for the `Search or Enter Package URL` field
 
 #### Using Swift Package Manager (SPM) via editing `Package.swift` directly
