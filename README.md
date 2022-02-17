@@ -1,6 +1,6 @@
 # BitmovinPlayer
 
-## Sample
+## Samples
 
 For samples using the Bitmovin Player iOS SDK see [here](https://github.com/bitmovin/bitmovin-player-ios-samples).
 For a sample using SPM for integration, see sample named `BasicPlaybackSPM`.
@@ -8,12 +8,16 @@ For a sample using SPM for integration, see sample named `BasicPlaybackSPM`.
 ## How to integrate the Bitmovin Player iOS SDK
 When you want to develop an own iOS application using the Bitmovin Player iOS SDK read through the following steps.
 
-### Using Xcode (SPM)
+### Adding the SDK To Your Project
+To add the SDK as a dependency to your project, you have three options: Using Swift Package Manager, CocoaPods or adding the SDK bundle directly.
+
+#### Using Swift Package Manager (SPM)
+
+##### Using Xcode
 Add your package by following the [official guide](https://developer.apple.com/documentation/swift_packages/adding_package_dependencies_to_your_app) from Apple.
+Use URL of `https://github.com/bitmovin/bitmovin-player-ios` for the `Search or Enter Package URL` field
 
-Using URL `https://github.com/bitmovin/bitmovin-player-ios.git`
-
-### Using Swift Package Manager (SPM)
+##### Adding to `Package.swift` directly
 Create a `Package.swift` file.
 
 ```swift
@@ -30,17 +34,11 @@ let package = Package(
   ]
 )
 ```
-```
-$ swift build
-```
-
-### Adding the SDK To Your Project
-To add the SDK as a dependency to your project, you have two options: Using CocoaPods or adding the SDK bundle directly.
 
 #### Using CocoaPods
-1. Add `source 'https://github.com/bitmovin/cocoapod-specs.git'` to your Podfile.
+1. Add `source 'https://github.com/bitmovin/cocoapod-specs.git'` to your `Podfile`.
 1. Run `pod repo update` to add the newly added source.
-1. Add `pod 'BitmovinPlayer', '3.0.0'` to your Podfile.
+1. Add `pod 'BitmovinPlayer', '3.0.0'` to your `Podfile`.
 1. Install the pod using `pod install`.
 
 See the `Podfile` of this repository for a full example.
@@ -62,3 +60,4 @@ When using Xcode, go to the `General` page or your app target and add the SDK bu
 ## Documentation And Release Notes
 -   You can find the latest API documentation [here](https://bitmovin.com/ios-sdk-documentation/).
 -   The release notes can be found [here](https://bitmovin.com/release-notes-ios-sdk/).
+w
