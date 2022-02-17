@@ -11,13 +11,11 @@ When you want to develop an own iOS application using the Bitmovin Player iOS SD
 ### Adding the SDK To Your Project
 To add the SDK as a dependency to your project, you have three options: Using Swift Package Manager, CocoaPods or adding the SDK bundle directly.
 
-#### Using Swift Package Manager (SPM)
-
-##### Using Xcode
+#### Using Swift Package Manager (SPM) via Xcode
 Add your package by following the [official guide](https://developer.apple.com/documentation/swift_packages/adding_package_dependencies_to_your_app) from Apple.
 Use URL of `https://github.com/bitmovin/bitmovin-player-ios` for the `Search or Enter Package URL` field
 
-##### Adding to `Package.swift` directly
+#### Using Swift Package Manager (SPM) via editing `Package.swift` directly
 Create a `Package.swift` file.
 
 ```swift
