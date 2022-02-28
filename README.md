@@ -34,7 +34,7 @@ https://github.com/bitmovin/bitmovin-player-ios
 ```
 
 #### Using `Package.swift`
-To integrate using Apple's Swift Package Manager, add the following as a dependency to your `Package.swift` while replacing `Version Number` with the desired version of the SDK.
+To integrate using Apple's Swift Package Manager, add the following as a dependency to your `Package.swift` and replace `Version Number` with the desired version of the SDK.
 
 ```swift
 .package(name: "BitmovinPlayer", url: "https://github.com/bitmovin/player-ios-tvos.git", .exact("Version Number"))
