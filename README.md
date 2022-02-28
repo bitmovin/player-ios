@@ -12,7 +12,7 @@
 ## Installation
 To add the SDK as a dependency to your project, you have three options: Using CocoaPods, Swift Package Manager or adding the SDK bundle directly.
 
-### CocoaPods
+### Using [CocoaPods](https://cocoapods.org/)
 Add the following lines to the `Podfile` of your project while replacing `Version Number` with the desired version of the SDK. All available versions are listed in the [cocoapod repository](https://github.com/bitmovin/cocoapod-specs/tree/master/Specs/BitmovinPlayer).
 
 Run `pod repo update` to add the newly added source and run `pod install` to install it.
@@ -23,7 +23,7 @@ source 'https://github.com/bitmovin/cocoapod-specs.git'
 pod 'BitmovinPlayer', 'Version Number'
 ```
 
-### Swift Package Manager
+### Using [Swift Package Manager](https://swift.org/package-manager/)
 The [Swift Package Manager](https://swift.org/package-manager/) is a tool for managing the distribution of Swift code. It’s integrated with the Swift build system to automate the process of downloading, compiling, and linking dependencies.
 
 #### Using Xcode
