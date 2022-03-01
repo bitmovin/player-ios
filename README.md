@@ -13,9 +13,9 @@
 To add the SDK as a dependency to your project, you have three options: Using CocoaPods, Swift Package Manager or adding the SDK bundle directly.
 
 ### Using [CocoaPods](https://cocoapods.org/)
-Add the following lines to the `Podfile` of your project while replacing `Version Number` with the desired version of the SDK. All available versions are listed in the [cocoapod repository](https://github.com/bitmovin/cocoapod-specs/tree/master/Specs/BitmovinPlayer).
+Add the following lines to the `Podfile` of your project and replace the `Version Number` with the desired version of the `BitmovinPlayer`. You can find all versions [here](https://github.com/bitmovin/cocoapod-specs/tree/master/Specs/BitmovinPlayer).
 
-Run `pod repo update` to add the newly added source and run `pod install` to install it.
+Execute `pod repo update` first to add the new source and execute `pod install` after to install the new `BitmovinPlayer` dependency.
 
 ```ruby
 source 'https://github.com/bitmovin/cocoapod-specs.git'
@@ -40,7 +40,7 @@ To integrate using Apple's Swift Package Manager, add the following as a depende
 .package(name: "BitmovinPlayer", url: "https://github.com/bitmovin/player-ios-tvos.git", .exact("Version Number"))
 ```
 
-And then specify the `BitmovinPlayer` as a dependency of the desired Target. Here's an example of a `Package.swift` file:
+And then specify the `BitmovinPlayer` as a dependency of the desired target. Here's an example of a `Package.swift` file:
 
 ```swift
 // swift-tools-version:5.3
@@ -63,16 +63,16 @@ When using Xcode, go to the `General` page or your app target and add the SDK bu
 ## Getting Started
 ### Configure the license key
 
-- Add your Bitmovin player license key to the `Info.plist` file as `BitmovinPlayerLicenseKey`. Alternatively, you can also set the license key via the `PlayerConfig.key` property when creating a `Player` instance.
+- Add your Bitmovin Player license key to the `Info.plist` file as `BitmovinPlayerLicenseKey`. Alternatively, you can also set the license key via the `PlayerConfig.key` property when creating a `Player` instance.
 
-    Your player license key can be found when logging in into [https://bitmovin.com/dashboard](https://bitmovin.com/dashboard) and navigating to `Player -> Licenses`.
+    Your Bitmovin Player license key can be found under `Player -> Licenses` in the [Bitmovin Dashboard](https://bitmovin.com/dashboard).
 
-- Add the Bundle identifier of the iOS application which is using the SDK as an allowed domain to the Bitmovin licensing backend. This can be also done under `Player -> Licenses` when logging in into [https://dashboard.bitmovin.com](https://dashboard.bitmovin.com) with your account.
+- Add the Bundle Identifier of the iOS application which is using the SDK as an allowed domain to the Bitmovin licensing backend. This can be also done under `Player -> Licenses` via the [Bitmovin Dashboard](https://dashboard.bitmovin.com).
 
 ## Samples
 
 For samples using the Bitmovin Player iOS SDK see [here](https://github.com/bitmovin/bitmovin-player-ios-samples).
-For a sample using SPM for integration, see sample named `BasicPlaybackSPM`.
+For a sample using the Swift Package Manager for integration, see sample named `BasicPlaybackSPM`.
 
 
 ## Documentation and Resources
