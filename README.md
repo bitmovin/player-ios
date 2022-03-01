@@ -56,7 +56,7 @@ let package = Package(
 )
 ```
 
-##### Limitation:
+##### Limitation
 Executing `swift build` from the command line is currently not supported. Open the Package in Xcode if you are developing another Package depending on the `BitmovinPlayer`.
 
 ### Add the Player SDK to the Project directly
