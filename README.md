@@ -1,8 +1,8 @@
 # BitmovinPlayer
 
 - [Installation](#installation)
-    - [CocoaPods](#cocoapods)
-    - [Swift Package Manager](#swift-package-manager)
+    - [CocoaPods](#using-cocoapods)
+    - [Swift Package Manager](#using-swift-package-manager)
     - [Add the Player SDK to the Project directly](#add-the-player-sdk-to-the-project-directly)
 - [Getting Started](#getting-started)
     - [Configure the license key](#configure-the-license-key)
