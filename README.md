@@ -43,17 +43,16 @@ To integrate using Apple's Swift Package Manager, add the following as a depende
 And then specify the `BitmovinPlayer` as a dependency of the desired target. Here's an example of a `Package.swift` file:
 
 ```swift
-// swift-tools-version:5.3
-import PackageDescription
-
 let package = Package(
-  name: "MyPackage",
+  ...
   dependencies: [
+    ...
     .package(name: "BitmovinPlayer", url: "https://github.com/bitmovin/player-ios-tvos.git", .exact("Version Number"))
   ],
   targets: [
-    .target(name: "MyPackage", dependencies: ["BitmovinPlayer"])
+    .target(name: "<NAME_OF_YOUR_PACKAGE>", dependencies: ["BitmovinPlayer"])
   ]
+  ...
 )
 ```
 
