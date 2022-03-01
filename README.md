@@ -30,14 +30,14 @@ The [Swift Package Manager](https://swift.org/package-manager/) is a tool for ma
 To integrate using Xcode 13, open your Project file and specify it in `Project > Package Dependencies` using the following URL:
 
 ```
-https://github.com/bitmovin/bitmovin-player-ios
+https://github.com/bitmovin/player-ios
 ```
 
 #### Using `Package.swift`
 To integrate using Apple's Swift Package Manager, add the following as a dependency to your `Package.swift` and replace `Version Number` with the desired version of the SDK.
 
 ```swift
-.package(name: "BitmovinPlayer", url: "https://github.com/bitmovin/player-ios-tvos.git", .exact("Version Number"))
+.package(name: "BitmovinPlayer", url: "https://github.com/bitmovin/player-ios.git", .exact("Version Number"))
 ```
 
 And then specify the `BitmovinPlayer` as a dependency of the desired target. Here's an example of a `Package.swift` file:
@@ -47,7 +47,7 @@ let package = Package(
   ...
   dependencies: [
     ...
-    .package(name: "BitmovinPlayer", url: "https://github.com/bitmovin/player-ios-tvos.git", .exact("Version Number"))
+    .package(name: "BitmovinPlayer", url: "https://github.com/bitmovin/player-ios.git", .exact("Version Number"))
   ],
   targets: [
     .target(name: "<NAME_OF_YOUR_PACKAGE>", dependencies: ["BitmovinPlayer"])
