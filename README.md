@@ -24,7 +24,7 @@ pod 'BitmovinPlayer', 'Version Number'
 ```
 
 ### Using [Swift Package Manager](https://swift.org/package-manager/)
-The [Swift Package Manager](https://swift.org/package-manager/) is a tool for managing the distribution of Swift code. It’s integrated with the Swift build system to automate the process of downloading, compiling, and linking dependencies.
+[Swift Package Manager](https://swift.org/package-manager/) is a tool for managing the distribution of Swift frameworks. It’s integrated with the Swift build system to automate the process of downloading, compiling, and linking dependencies.
 
 #### Using Xcode
 To integrate using Xcode 13, open your Project file and specify it in `Project > Package Dependencies` using the following URL:
@@ -57,7 +57,7 @@ let package = Package(
 ```
 
 ##### Limitation
-Executing `swift build` from the command line is currently not supported. Open the Package in Xcode if you are developing another Package depending on the `BitmovinPlayer`.
+Executing `swift build` from the command line is currently not supported. Open the Package in Xcode if you are developing another Package depending on `BitmovinPlayer`.
 
 ### Add the Player SDK to the Project directly
 When using Xcode, go to the `General` page or your app target and add the SDK bundle (`BitmovinPlayer.xcframework`) under `Linked Frameworks and Libraries`. The latest SDK for iOS and tvOS can be downloaded [here](https://cdn.bitmovin.com/player/ios_tvos/3.0.0/BitmovinPlayer.zip).
