@@ -30,7 +30,7 @@ pod 'BitmovinPlayer', 'Version Number'
 To integrate using Xcode 13, open your Project file and specify it in `Project > Package Dependencies` using the following URL:
 
 ```
-https://github.com/bitmovin/player-ios
+https://github.com/bitmovin/player-ios.git
 ```
 
 #### Using `Package.swift`
