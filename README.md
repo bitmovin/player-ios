@@ -24,7 +24,7 @@ pod 'BitmovinPlayer', 'Version Number'
 ```
 
 ### Using [Swift Package Manager](https://swift.org/package-manager/)
-[Swift Package Manager](https://swift.org/package-manager/) is a tool for managing the distribution of Swift frameworks. It’s integrated with the Swift build system to automate the process of downloading, compiling, and linking dependencies.
+[Swift Package Manager](https://swift.org/package-manager/) is a tool for managing the distribution of Swift frameworks. It integrates with the Swift build system to automate the process of downloading, compiling, and linking dependencies.
 
 #### Using Xcode
 To integrate using Xcode 13, open your Project file and specify it in `Project > Package Dependencies` using the following URL:
@@ -40,7 +40,7 @@ To integrate using Apple's Swift Package Manager, add the following as a depende
 .package(name: "BitmovinPlayer", url: "https://github.com/bitmovin/player-ios.git", .exact("Version Number"))
 ```
 
-And then specify the `BitmovinPlayer` as a dependency of the desired target. Here's an example of a `Package.swift` file:
+And then specify the `BitmovinPlayer` as a dependency of the desired target. Here is an example of a `Package.swift` file:
 
 ```swift
 let package = Package(
