@@ -18,8 +18,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "BitmovinPlayer",
-            url: "https://cdn.bitmovin.com/player/ios_tvos/3.3.0/BitmovinPlayer.zip",
-            checksum: "91e21033f05c53b738f9513bc0feb191c83b3fa2329c43c56ea234eafb2205e5"
+            url: "https://cdn.bitmovin.com/player/ios_tvos/3.4.0/BitmovinPlayer.zip",
+            checksum: "03939bbade5db38e5c7716a3174270bf05598ba50345d37c1c08e2ac5a3c5b05"
         )
     ]
 )
