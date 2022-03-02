@@ -78,6 +78,6 @@ For a sample using the Swift Package Manager for integration, see sample named `
 
 
 ## Documentation and Resources
--   You can find a full getting started guide including examples of how to set up a `Player` [here](https://bitmovin.com/docs/player/getting-started/ios).
+-   You can find a full getting started guide including examples [here](https://bitmovin.com/docs/player/getting-started/ios).
 -   You can find the latest API documentation [here](https://bitmovin.com/ios-sdk-documentation/).
 -   The release notes can be found [here](https://bitmovin.com/release-notes-ios-sdk/).
