@@ -1,4 +1,4 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.7
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
@@ -12,14 +12,24 @@ let package = Package(
     products: [
         .library(
             name: "BitmovinPlayer",
-            targets: ["BitmovinPlayer"]
+            targets: ["BitmovinPlayerTarget"]
         ),
+    ],
+    dependencies: [
+        .package(url: "https://github.com/bitmovin/player-ios-core.git", exact: "3.39.0-a.33"),
     ],
     targets: [
         .binaryTarget(
             name: "BitmovinPlayer",
-            url: "https://cdn.bitmovin.com/player/ios_tvos/3.40.0-a.8/BitmovinPlayer.zip",
-            checksum: "58148d7e83d70de63d1c089b915e8e54c4da27dac64ef6f52a157a4170269faa"
-        )
+            url: "https://cdn.bitmovin.com/player/ios_tvos/3.39.0-a.33/BitmovinPlayer.zip",
+            checksum: "3d86e39ab756f087e6d334b234600cab7e5a96a540e65941467e0e98bc73d9bd"
+        ),
+        .target(
+            name: "BitmovinPlayerTarget",
+            dependencies: [
+                "BitmovinPlayer",
+                .product(name: "BitmovinPlayerCore", package: "player-ios-core"),
+            ]
+        ),
     ]
 )
