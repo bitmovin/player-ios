@@ -20,7 +20,7 @@ Execute `pod repo update` first to add the new source and execute `pod install` 
 ```ruby
 source 'https://github.com/bitmovin/cocoapod-specs.git'
 
-pod 'BitmovinPlayer', '3.42.0-a.5'
+pod 'BitmovinPlayer', '3.42.0-a.6'
 ```
 
 ### Using [Swift Package Manager](https://swift.org/package-manager/)
@@ -60,7 +60,7 @@ let package = Package(
 Executing `swift build` from the command line is currently not supported. Open the Package in Xcode if you are developing another Package depending on `BitmovinPlayer`.
 
 ### Add the Player SDK to the Project directly
-When using Xcode, go to the `General` page or your app target and add the SDK bundle (`BitmovinPlayer.xcframework`) under `Linked Frameworks and Libraries`. The latest SDK for iOS and tvOS can be downloaded [here](https://cdn.bitmovin.com/player/ios_tvos/3.42.0-a.5/BitmovinPlayer.zip).
+When using Xcode, go to the `General` page or your app target and add the SDK bundle (`BitmovinPlayer.xcframework`) under `Linked Frameworks and Libraries`. The latest SDK for iOS and tvOS can be downloaded [here](https://cdn.bitmovin.com/player/ios_tvos/3.42.0-a.6/BitmovinPlayer.zip).
 
 ## Getting Started
 ### Configure the license key
