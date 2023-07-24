@@ -16,13 +16,13 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/bitmovin/player-ios-core.git", exact: "3.41.2-rc.1"),
+        .package(url: "https://github.com/bitmovin/player-ios-core.git", exact: "3.41.2"),
     ],
     targets: [
         .binaryTarget(
             name: "BitmovinPlayer",
-            url: "https://cdn.bitmovin.com/player/ios_tvos/3.41.2-rc.1/BitmovinPlayer.zip",
-            checksum: "4ea09d1f802b88353c59558f2d6fdf7b716595d7c52a195d7f41b2d4fd774100"
+            url: "https://cdn.bitmovin.com/player/ios_tvos/3.41.2/BitmovinPlayer.zip",
+            checksum: "b998761cded5282bf521c0b8fc739dc482a5a543bb5360eb1ac43560d7f82e1b"
         ),
         .target(
             name: "BitmovinPlayerTarget",
