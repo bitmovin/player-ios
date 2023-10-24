@@ -7,8 +7,7 @@ let package = Package(
     name: "BitmovinPlayer",
     platforms: [
         .iOS(.v14),
-        .tvOS(.v14),
-        .visionOS(.v1)
+        .tvOS(.v14)
     ],
     products: [
         .library(
