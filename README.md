@@ -18,13 +18,11 @@ Since version **3.77.0** we have switched to publishing on the [CocoaPods](https
 To add the `BitmovinPlayer` SDK as a dependency to your project, you have three options: Using CocoaPods, Swift Package Manager or adding the SDK bundle directly.
 
 ### Using [CocoaPods](https://cocoapods.org/)
-Add the following lines to the `Podfile` of your project and replace the `Version Number` with the desired version of the `BitmovinPlayer`. You can find all versions [here](https://github.com/bitmovin/cocoapod-specs/tree/master/Specs/BitmovinPlayer).
+Add the following lines to the `Podfile` of your project and replace the `Version Number` with the desired version of `BitmovinPlayer`. All available versions from **3.77.0** on are listed in the [CocoaPods trunk repository](https://github.com/CocoaPods/Specs/tree/master/Specs/f/3/3/BitmovinPlayer) (earlier versions are listed in our [CocoaPods repository](https://github.com/bitmovin/cocoapod-specs/tree/master/Specs/BitmovinPlayer) instead).
 
-Execute `pod repo update` first to add the new source and execute `pod install` after to install the new `BitmovinPlayer` dependency.
+Execute `pod install` to install the new `BitmovinPlayer` dependency.
 
 ```ruby
-source 'https://github.com/bitmovin/cocoapod-specs.git'
-
 pod 'BitmovinPlayer', '3.77.1-a.4'
 ```
 
