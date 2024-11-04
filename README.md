@@ -9,6 +9,11 @@
 - [Samples](#samples)
 - [Documentation and Resources](#documentation-and-resources)
 
+## Deprecated - Use trunk instead
+
+> [!WARNING]
+Since version **3.77.0** we have switched to publishing on the [CocoaPods](https://cocoapods.org/) Trunk repository, so no further releases will be published here.
+
 ## Installation
 To add the `BitmovinPlayer` SDK as a dependency to your project, you have three options: Using CocoaPods, Swift Package Manager or adding the SDK bundle directly.
 
