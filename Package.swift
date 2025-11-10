@@ -1,4 +1,4 @@
-// swift-tools-version:5.9
+// swift-tools-version:5.10
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
@@ -17,19 +17,19 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/bitmovin/player-ios-core.git", exact: "3.99.0"),
+        .package(url: "https://github.com/bitmovin/player-ios-core.git", "3.100.0-a.1"..."3.100.0"),
         .package(url: "https://github.com/bitmovin/bitmovin-analytics-collector-ios.git", from: "3.8.0"),
     ],
     targets: [
         .binaryTarget(
             name: "BitmovinPlayer",
-            url: "https://cdn.bitmovin.com/player/ios_tvos/3.99.0/BitmovinPlayer.zip",
-            checksum: "6e9cc13a0ccec3c998c35989bf9384a6ccfb666218018dc29cde536f5c6dc5ca"
+            url: "https://cdn.bitmovin.com/player/ios_tvos/3.100.0-a.1/BitmovinPlayer.zip",
+            checksum: "b477f11e168aa342d89fc4c4cd5cd2270a52a3db81f8b774c1e6bd62bc0944f0"
         ),
         .binaryTarget(
             name: "BitmovinPlayerAnalytics",
-            url: "https://cdn.bitmovin.com/player/ios_tvos/3.99.0/BitmovinPlayerAnalytics.zip",
-            checksum: "0c4b0a099d63a0c57c1dcc491b89b234dc3c076cb5ec16746c5868b1db10843b"
+            url: "https://cdn.bitmovin.com/player/ios_tvos/3.100.0-a.1/BitmovinPlayerAnalytics.zip",
+            checksum: "04357df126a0cc6f5a160f88b19d8ca237f1619af48dbd8a3318e6a4644608ac"
         ),
         .target(
             name: "BitmovinPlayerTarget",
