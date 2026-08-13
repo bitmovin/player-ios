@@ -17,19 +17,19 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/bitmovin/player-ios-core.git", "3.120.0-rc.1"..."3.120.0"),
+        .package(url: "https://github.com/bitmovin/player-ios-core.git", exact: "3.120.0"),
         .package(url: "https://github.com/bitmovin/bitmovin-analytics-collector-ios.git", from: "3.23.0"),
     ],
     targets: [
         .binaryTarget(
             name: "BitmovinPlayer",
-            url: "https://cdn.bitmovin.com/player/ios_tvos/3.120.0-rc.1/BitmovinPlayer.zip",
-            checksum: "f2fbf70bf659c9c6b1f6de37c0f8b0ccc4bd279d6109d1ce08ea69fbada1385d"
+            url: "https://cdn.bitmovin.com/player/ios_tvos/3.120.0/BitmovinPlayer.zip",
+            checksum: "4f3bae645fbc6b1205c3c8941f859507e18f768ae58aae12205cd0149304fc6d"
         ),
         .binaryTarget(
             name: "BitmovinPlayerAnalytics",
-            url: "https://cdn.bitmovin.com/player/ios_tvos/3.120.0-rc.1/BitmovinPlayerAnalytics.zip",
-            checksum: "8a9b6538227dd83939d51a9dc57a4d62899709578181742374620618d9b5f9e1"
+            url: "https://cdn.bitmovin.com/player/ios_tvos/3.120.0/BitmovinPlayerAnalytics.zip",
+            checksum: "bd2cb9122859961cc4700e80e82ee9588072435d306e43b2f08ace1130f7eba4"
         ),
         .target(
             name: "BitmovinPlayerTarget",
