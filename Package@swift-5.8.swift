@@ -23,12 +23,12 @@ let package = Package(
         .binaryTarget(
             name: "BitmovinPlayer",
             url: "https://cdn.bitmovin.com/player/ios_tvos/3.128.0/BitmovinPlayer.zip",
-            checksum: "bd2db715ee393b618c46f0afb54b160006c9b6d6b077b166d4377278614b2171"
+            checksum: "44d62839757844abd375b1ebbbf4825cbf6426eabe597c1e3b85dc71ecca0ed2"
         ),
         .binaryTarget(
             name: "BitmovinPlayerAnalytics",
             url: "https://cdn.bitmovin.com/player/ios_tvos/3.128.0/BitmovinPlayerAnalytics.zip",
-            checksum: "1d7d062aef2815daefc813cd64fe1325aa34dbded9d3e494ba3bc24a6b514df4"
+            checksum: "434c86738edebe07b41a1f94fd7e6a8b9f710ac79561b598bf4f561fddc19d33"
         ),
         .target(
             name: "BitmovinPlayerTarget",
